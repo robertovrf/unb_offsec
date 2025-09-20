@@ -1,1 +1,2 @@
+// Compilation of useful commands, actions and ideas for CTF competitions.
 
