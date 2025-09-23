@@ -1,0 +1,82 @@
+O grupo realizou o CTF picklerick https://tryhackme.com/room/picklerick
+
+A estratégia que utilizamos para resolver este CTF foi de iniciarmos com o nmap e dirbuster.
+com o nmap encontramos dois protocolos que estavam sendo rodados na máquina: 22/tcp ssh e 80/tcp http
+
+Após isso, decidimos utilizar o dirbuster para ver se conseguíamos encontrar algum diretório para ser
+acessado.
+O resultado provido pelo dirbuster nos forneceu os seguintes diretórios do site:
+===============================================================
+[+] Url:                     http://10.201.18.196/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/.hta                 (Status: 403) [Size: 278]
+/.htpasswd            (Status: 403) [Size: 278]
+/.htaccess            (Status: 403) [Size: 278]
+/assets               (Status: 301) [Size: 315] [--> http://10.201.18.196/assets/]
+/index.html           (Status: 200) [Size: 1062]
+/robots.txt           (Status: 200) [Size: 17]
+/server-status        (Status: 403) [Size: 278]
+Progress: 4614 / 4615 (99.98%)
+===============================================================
+Finished
+===============================================================
+
+
+ao vasculharmos o código fonte de uma das páginas em HTML, pudemos encontrar um username que estava comentado lá
+username: R1ckRul3s
+
+em seguida, ao abrir um dos arquivos .txt que estavam presentes, fomos capazes de encontrar a string
+Wubbalubbadubdub
+
+Depois disso, tentamos inserir "/login" na URL do Site, e com isso chegamos até a página de Login, onde foi possível
+inserirmos usuário e senha e entrarmos no sistema logados como rick.
+
+Recebemos a dica de que poderíamos tentar especificar para o dirbuster tentar encontrar formatos específicos de arquivos
+em sua busca. Para isso, adicionamos a flag "-x .txt" no final do comando do dirbuster, ficando assim:
+
+gobuster dir -u [ip]  -w [wordlist]  -x php,html,python
+
+Ao fazer isso, encontramos o primeiro ingrediente secreto em um arquivo .txt
+./Sup3rS3cretPickl3Ingred.txt
+"mr. meeseek hair"
+
+
+Em seguida, partimos para o segundo ingrediente secreto para ser encontrado.
+O arquivo clue.txt afirmava de que bastava vasculharmos o sistema para encontrarmos o próximo ingrediente.
+Com isso, partimos para a aventura de vasculhar o sistema para ir atrás do proximo ingrediente secreto.
+
+Uma nota importante para se considerar era que o próprio site possuía uma página .php com um terminal de comando
+por meio da qual o usuário consegue interagir e escrever alguns console commands lá dentro. Alguns comandos que requeriam permissão especial estavam 
+desabilitados
+
+entretanto, ao vasculharmos um pouco mais os diretórios, por fim conseguimos encontrar o segundo ingrediente,
+e através do comando "less" pudemos ler o conteúdo contido naquele arquivo.
+less /home/rick/'second ingredients'
+
+"1 jerry tear" era o segundo ingrediente
+
+Em seguida, verificamos que tinhamos acesso de administrador do sistema. Então, partimos em seguida para ir ao diretório raiz do sistema,
+e após isso, encontramos o arquivo 3rd.txt, que continha o ingrediente final a ser encontrado.
+"fleeb juice"
+
+por fim, bastou inserir o ingrediente final.
+
+E com isso, concluimos o desafio.
+
+
+##Reflexões:
++ A maior dificuldade que sentimos no desafio sinto que nem foi mesmo o uso das ferramentas de nmap e dirbuster,
+mas sim trabalhar com a própria linha de comando do terminal ao tentarmos encontrar os comandos que eram permitidos
+para serem usados ali dentro.
++ colocar o dibuster com a switch -x e as extenções de arquivo foi bastante interessante. Já que inicialmente nem foi 
+encontrada a página de login por parte dele. Usarmos mais esse recurso ao longo dos próximos CTFs é uma escolha certa
+
+
