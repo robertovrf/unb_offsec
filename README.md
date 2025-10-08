@@ -23,7 +23,7 @@ Sejam bem-vind*s ao grupo de estudos para prática e treinamento para competiç�
 | 02    | Daniel, Fabio, João                        |                     |
 | 03    | Lucas Diogenis, Erik, Henrique             |                     |
 | 04    | Lucas Teles, Henrique, Nicolas, Bruno      | 404 Brain Not Found |
-| 05    | Thelma, Luciana, Elyel, Leticia            | Loss Packets        |
+| 05    | Thelma, Luciana, Elyel, Leticia            | Lost Packets        |
 | 06    | Nirva                                      |                     |
 | 07    | Henrique, Gabriel                          |                     |
 | 08    | Fernando, Bernardo, Diego, Guilherme       |                     |
