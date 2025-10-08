@@ -21,7 +21,7 @@ Sejam bem-vind*s ao grupo de estudos para prática e treinamento para competiç�
 |-------|---------------------------------------------|---------------------|
 | 01    | Giovanna, Danilo, Samuel, Felipe           |                     |
 | 02    | Daniel, Fabio, João                        |                     |
-| 03    | Lucas Diogenis, Luca, Erik, Yuri, Henrique, Isabela |            |
+| 03    | Lucas Diogenis, Erik, Henrique             |                     |
 | 04    | Lucas Teles, Henrique, Nicolas, Bruno      | 404 Brain Not Found |
 | 05    | Thelma, Luciana, Elyel                     |                     |
 | 06    | Nirva                                      |                     |
@@ -31,5 +31,5 @@ Sejam bem-vind*s ao grupo de estudos para prática e treinamento para competiç�
 | 10    | Pedro, Iasmin, Lucas                       |                     |
 | 11    | Natsumi, Mariana                           |                     |
 | 12    | Leticia, Wallysson, Arthur                 |                     |
-
+| 13    | Luca, Yuri, Isabela                        |                     |
 
