@@ -19,7 +19,7 @@ Sejam bem-vind*s ao grupo de estudos para prática e treinamento para competiç�
 
 | Grupo | Integrantes                                | Nome da Equipe       |
 |-------|---------------------------------------------|---------------------|
-| 01    | Giovanna, Danilo, Samuel, Felipe           |                     |
+| 01    | Giovanna, Danilo, Samuel, Felipe           | Radix               |
 | 02    | Daniel, Fabio, João                        |                     |
 | 03    | Lucas Diogenis, Erik, Henrique             |                     |
 | 04    | Lucas Teles, Henrique, Nicolas, Bruno      | 404 Brain Not Found |
