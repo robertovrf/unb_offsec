@@ -29,7 +29,7 @@ Sejam bem-vind*s ao grupo de estudos para prática e treinamento para competiç�
 | 08    | Fernando, Bernardo, Diego, Guilherme       |                     |
 | 09    | Vitor, Alan                                |                     |
 | 10    | Pedro, Iasmin, Lucas                       |                     |
-| 11    | Mariana, Caio                              |                     |
+| 11    | Mariana, Caio, Lucas                       |                     |
 | 12    | Wallysson, Gustavo                         |                     |
 | 13    | Luca, Yuri, Isabela                        |                     |
 
