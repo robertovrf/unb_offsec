@@ -14,6 +14,7 @@ Sejam bem-vind*s ao grupo de estudos para prática e treinamento para competiç�
 | 👨‍🏫 **Prof. Dr. Marecelo Marotta**      | Professor Colaborador      |                                                      |
 | 👨‍🏫 **Prof. Dr. Marcos Caetano**        | Professor Colaborador      |                                                      |
 | 👨‍🏫 **Prof. Dr. João Gondim**           | Professor Colaborador      |                                                      |
+| 👨‍🎓 **Enzo Teles**                      | Monitor voluntário         |                                                      |
 
 ### Grupos
 
