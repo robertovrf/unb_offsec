@@ -17,19 +17,19 @@ Sejam bem-vind*s ao grupo de estudos para prática e treinamento para competiç�
 
 ### Grupos
 
-| Grupo | Integrantes                                | Nome da Equipe       |
-|-------|---------------------------------------------|---------------------|
-| 01    | Giovanna, Danilo, Samuel, Felipe           | Radix               |
-| 02    | Daniel, Fabio, João                        |                     |
-| 03    | Lucas Diogenis, Erik, Henrique             |                     |
-| 04    | Lucas Teles, Henrique, Nicolas, Bruno      | 404 Brain Not Found |
-| 05    | Thelma, Luciana, Elyel, Leticia            | Lost Packets        |
-| 06    | Nirva                                      |                     |
-| 07    | Henrique, Gabriel                          |                     |
-| 08    | Fernando, Bernardo, Diego, Guilherme       |                     |
-| 09    | Vitor, Alan                                |                     |
-| 10    | Pedro, Iasmin, Lucas                       |                     |
-| 11    | Mariana, Caio, Lucas                       |                     |
-| 12    | Wallysson, Gustavo                         |                     |
-| 13    | Luca, Yuri, Isabela                        |                     |
+| Grupo | Integrantes                                | Nome da Equipe       | Ranking             |
+|-------|---------------------------------------------|---------------------|---------------------|
+| 01    | Giovanna, Danilo, Samuel, Felipe           | Radix               |     🥇 - 1º lugar    |
+| 02    | Daniel, Fabio, João                        |                     |                     |
+| 03    | Lucas Diogenis, Erik, Henrique             |                     |       6º lugar      |
+| 04    | Lucas Teles, Henrique, Nicolas, Bruno      | 404 Brain Not Found |                     |
+| 05    | Thelma, Luciana, Elyel, Leticia            | Lost Packets        |                     |
+| 06    | Nirva                                      |                     |                     |
+| 07    | Henrique, Gabriel                          |                     |      7º lugar       |
+| 08    | Fernando, Bernardo, Diego, Guilherme       |                     |                     |
+| 09    | Vitor, Alan                                |                     |      5º lugar       |
+| 10    | Pedro, Iasmin, Lucas                       |                     |     🥈 - 2º lugar   |
+| 11    | Mariana, Caio, Lucas                       |                     |                     |
+| 12    | Wallysson, Gustavo                         |                     |     🥉 - 3º lugar   |
+| 13    | Luca, Yuri, Isabela                        |                     |      4º lugar       |
 
