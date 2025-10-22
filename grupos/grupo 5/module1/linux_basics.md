@@ -2,7 +2,7 @@
 
 ---
 
-## 🔹 1. Abertura do Terminal
+### 🔹 1. Abertura do Terminal
 ```
 Ctrl + Alt + T
 ```
@@ -10,7 +10,7 @@ Ctrl + Alt + T
 
 ---
 
-## 🔹 2. Navegação entre Diretórios
+### 🔹 2. Navegação entre Diretórios
 ```
 pwd                # Mostra o diretório atual
 cd nome            # Vai para o diretório indicado
@@ -21,7 +21,7 @@ cd /var/           # Acessa pasta a partir da raiz
 
 ---
 
-## 🔹 3. Listagem de Arquivos e Pastas
+### 🔹 3. Listagem de Arquivos e Pastas
 ```
 ls                 # Lista arquivos/diretórios
 ls -l              # Listagem detalhada (permissões, dono, data)
@@ -33,7 +33,7 @@ ls -ltr /var/      # Lista em /var/
 
 ---
 
-## 🔹 4. Criação e Visualização de Arquivos
+### 🔹 4. Criação e Visualização de Arquivos
 ```
 touch nome.ext                 # Cria arquivo vazio
 cat nome.ext                   # Mostra conteúdo
@@ -48,7 +48,7 @@ echo "texto" >> arq.txt        # Acrescenta no final
 
 ---
 
-## 🔹 5. Limpeza e Histórico
+### 🔹 5. Limpeza e Histórico
 ```
 clear        # Limpa tela
 history      # Mostra histórico
@@ -58,7 +58,7 @@ Ctrl + C     # Interrompe execução
 
 ---
 
-## 🔹 6. Criação e Remoção de Diretórios
+### 🔹 6. Criação e Remoção de Diretórios
 ```
 mkdir nome       # Cria diretório
 rmdir nome       # Remove diretório vazio
@@ -68,7 +68,7 @@ rm -rf nome      # Remove pasta e conteúdo (cuidado!)
 
 ---
 
-## 🔹 7. Remoção e Movimentação de Arquivos
+### 🔹 7. Remoção e Movimentação de Arquivos
 ```
 rm nome                  # Remove arquivo
 rm -i nome               # Remove com confirmação
@@ -78,7 +78,7 @@ cp arquivo destino/      # Copia arquivo
 
 ---
 
-## 🔹 8. Redirecionamento e Encadeamento
+### 🔹 8. Redirecionamento e Encadeamento
 ```
 >     # Redireciona saída (sobrescreve arquivo)
 >>    # Redireciona adicionando ao final
@@ -92,7 +92,7 @@ grep palavra arquivo             # Filtra linhas por padrão
 
 ---
 
-## 🔹 9. Processos e Gerenciamento
+### 🔹 9. Processos e Gerenciamento
 ```
 ps aux      # Lista todos os processos
 top         # Mostra processos em tempo real
@@ -101,7 +101,7 @@ htop        # Interface mais amigável (precisa instalar)
 
 ---
 
-## 🔹 10. Gerenciamento de Usuários e Grupos
+### 🔹 10. Gerenciamento de Usuários e Grupos
 ```
 sudo adduser nome                  # Cria usuário
 getent passwd                      # Lista usuários
@@ -116,7 +116,7 @@ chgrp grupo arquivo                # Troca grupo
 
 ---
 
-## 🔹 11. Permissões no Linux
+### 🔹 11. Permissões no Linux
 **Formato:** `drwxr-xr-x`
 
 | Letra | Significado | Ação     |
@@ -125,7 +125,7 @@ chgrp grupo arquivo                # Troca grupo
 | w     | write        | escrita  |
 | x     | execute      | execução |
 
-### Alterando permissões
+#### Alterando permissões
 ```
 chmod 777 arquivo    # Todos com acesso total (evitar)
 chmod 000 arquivo    # Ninguém acessa
@@ -136,7 +136,7 @@ chmod a=rwx arquivo  # Todos com acesso total
 
 ---
 
-## 🔹 12. Pacotes e Atualizações
+### 🔹 12. Pacotes e Atualizações
 ```
 sudo apt-get update       # Atualiza lista de pacotes
 sudo apt-get upgrade      # Atualiza pacotes
@@ -146,7 +146,7 @@ sudo apt-get purge nome   # Remove pacote + configs
 
 ---
 
-## 🔹 13. Outros Comandos Úteis
+### 🔹 13. Outros Comandos Úteis
 ```
 whoami                   # Mostra usuário atual
 uname -a                 # Infos do sistema
@@ -166,7 +166,7 @@ grep                     # Busca texto dentro de arquivos
 wc -l arquivo.log        # Conta linhas no arquivo
 ```
 
-### Operadores
+#### Operadores
 | Operador | Função |
 |:----------|:--------|
 | `&`       | Executa comando em segundo plano |
