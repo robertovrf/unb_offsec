@@ -7,17 +7,12 @@
 #### 1. Coleta de informações iniciais
 No primeiro momento buscamos o máximo de informação possível sobre o sistema alvo.
 
-- **Ping / conectividade**
   ```bash
-  ping <IP>
-  ```
-- **Varredura de portas e serviços (Nmap)**
-  ```bash
-  nmap <IP> -T4
-  ```
-- **Mapeamento de diretórios (Gobuster)**
-  ```bash
-  gobuster dir -u <URL_or_IP> -w <wordlist>
+  ping <IP> # ping / conectividade
+  
+  nmap <IP> -T4 # Varredura de portas e serviços (Nmap)
+
+  gobuster dir -u <URL_or_IP> -w <wordlist> # Mapeamento de diretórios (Gobuster)
   ```
 - **Inspeção de HTML / JS / CSS / assets**
   - Verificamos o código-fonte e identificamos o **nome do usuário**, que guardamos para uso posterior.
