@@ -1,10 +1,8 @@
 # Comandos Básicos no Linux <h1>
 🧠 Comandos Básicos do Terminal Linux
 
-### 1. Abertura do Terminal <h3>
+##### 1. Abertura do Terminal <h3>
 Ctrl + Alt + T
-
-
 → Abre o terminal.
 
 # 2. Navegação entre Diretórios <h3>
