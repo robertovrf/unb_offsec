@@ -2,11 +2,10 @@
 
 O shell reverso é uma técnica para obter um terminal remoto em outro computador invertendo a direção da conexão: em vez de você se conectar ao servidor, é o servidor que se conecta ao seu computador. Isso cria um terminal remoto que permite executar comandos no servidor a partir do seu computador.
 
-## Como funciona (resumido)
+## Como funciona (resumidamente)
 - O atacante prepara um computador para escutar conexões.  
 - O computador alvo (servidor) executa um programa que abre uma conexão de saída para o computador do atacante.  
 - Quando a conexão é estabelecida, o atacante passa a ter um shell (terminal) no servidor e pode executar comandos remotamente.
-
 ## Vantagem dessa abordagem
 - Funciona em ambientes onde o servidor está protegido por firewall ou NAT que bloqueiam conexões de entrada e conexões de saída costumam ser permitidas.
 
