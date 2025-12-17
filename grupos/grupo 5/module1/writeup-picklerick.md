@@ -30,7 +30,7 @@ No primeiro momento buscamos o máximo de informação possível sobre o sistema
 
 ### Painel do Portal
 - Dentro do portal navegamos por algumas abas.  
-- No **painel de comando** executamos `ls` e outros comandos — alguns funcionaram, outros não.  
+- No **painel de comando** executamos `ls` e outros comandos. Alguns funcionaram, outros não.  
 - Tivemos dificuldade em visualizar arquivos usando `GET`. Depois de ~1 hora pesquisando, aprendemos a usar:
   ```bash
   less <arquivo>
@@ -54,7 +54,7 @@ No primeiro momento buscamos o máximo de informação possível sobre o sistema
    ```
 
 3. **Terceira flag**  
-   - Explorando o diretório raiz encontramos a terceira flag — completando a sequência de ingredientes do desafio:
+   - Explorando o diretório raiz encontramos a terceira flag, completando a sequência de ingredientes do desafio:
    ```
    fleeb juice
    ```
@@ -64,13 +64,6 @@ No primeiro momento buscamos o máximo de informação possível sobre o sistema
 ### Dificuldades & Lições Aprendidas
 - **Esquecimento de comandos básicos do Linux** — tivemos dificuldade em lembrar comandos essenciais para exploração.  
 - **Tentativas longas sem sucesso** — passamos mais de 1 hora tentando abordagens sem progresso até reconhecer a necessidade de pesquisar (vídeos/tutorias).  
-- **Lição**: pesquisar e recorrer a referências externas é uma parte natural do processo de pentest/red team — economiza tempo a longo prazo.
-
----
-
-### Observações finais
-- Documente cada passo (comandos, outputs, caminhos) — facilita voltar atrás caso algo precise ser refeito.  
-- Sempre preserve provas e flags em arquivos separados com timestamps.  
-- Trabalhe em blocos: explorar → testar → pesquisar → documentar.
-
+- **Lição**: pesquisar e recorrer a referências externas é uma parte natural do processo de pentest/red team para economiza tempo a longo prazo.
+- 
 ---
