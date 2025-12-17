@@ -1,6 +1,5 @@
-# SQLi Cheatsheet
-
-**Source:** PortsSwigger (summary)
+# SQLi Cheatsheet/Useful notes
+Notes taken from the PortSwigger Academy
 
 ---
 
