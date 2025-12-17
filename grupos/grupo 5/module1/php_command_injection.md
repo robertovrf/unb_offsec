@@ -8,15 +8,11 @@
 
 Exemplo básico:
 <?php include 'exemplo.php'; ?>
-css
-Copiar código
 
 Esse é um tipo comum de vulnerabilidade, pois permite incluir páginas PHP dentro de outra página.
 
 Exemplo vulnerável:
 <?php include $_GET["pagina"]; ?>
-yaml
-Copiar código
 
 Nesse caso, o PHP irá incluir (e executar) o arquivo indicado pelo usuário dentro da página principal.
 
@@ -30,14 +26,9 @@ Isso permite que um atacante inclua arquivos locais ou remotos, dependendo da co
 
 Exemplo:
 <?php $myvar; $x = $_GET['arg']; eval("$myvar = $x;"); ?>
-yaml
-Copiar código
 
 Se o usuário acessar:
 /index.php?arg=1; echo exec("whoami")
-
-yaml
-Copiar código
 
 O código fornecido pelo usuário será executado pelo servidor.
 
